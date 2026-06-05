@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--Head-->
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Syne:wght@400..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Eseosa Portfolio - LLA Tech Bootcamp</title>
+</head>
+
+<!--Body-->
+
+<body>
+
+    <!--Header-->
+    <header class="site-header">
+        <h1>Eseosa Imhariagbe</h1>
+        <nav class="navbar">
+            <a href="#about" class="nav-links">About</a>
+            <a href="#skills" class="nav-links">Skills</a>
+            <a href="#goals" class="nav-links">Goals</a>
+        </nav>
+    </header>
+
+    <!--Main-->
+    <main>
+        <section id="about" class="page-section">
+            <h2 class="title">About Me</h2>
+            <p>
+                My name is Eseosa Imhariagbe. I am passionate about technology and
+                enjoy learning new things every day.
+            </p>
+            <p>
+                I am currently learning mobile development and building projects to
+                improve my skills.
+            </p>
+            <figure class="profile-figure">
+                <img src="/assets/Eseosa.jpeg" alt="Profile picture of Eseosa Imhariagbe" />
+                <figcaption>My profile picture.</figcaption>
+            </figure>
+        </section>
+
+        <aside class="fun-fact">
+            <p>Fun fact: I can solve a Rubik's Cube in under two minutes.</p>
+        </aside>
+
+        <section id="skills" class="page-section skills-section">
+            <h2 class="skills-heading title" id="title">Skills and Interests</h2>
+            <ul>
+                <li>Web Development</li>
+                <li>Football</li>
+                <li>Reading</li>
+                <li>Music</li>
+                <li>Crocheting</li>
+            </ul>
+        </section>
+
+        <section id="goals" class="page-section">
+            <h2 class="title">Projects and Goals</h2>
+            <ol class="goals-list">
+                <li>Build my personal portfolio website</li>
+                <li>Learn Flutter</li>
+                <li>Create a mobile application</li>
+            </ol>
+            <p>
+                <a href="https://www.linkedin.com" target="_blank">
+                    Visit LinkedIn
+                </a>
+            </p>
+        </section>
+
+        <section id="contact" class="contact-form">
+            <h2 class="title">Contact Me</h2>
+
+            <form action="#" method="POST">
+                <label for="first-name">First Name</label><br>
+                <input type="text" class="input-field" id="first-name" name="first-name" placeholder="Enter your first name"
+                    required /><br><br>
+
+                <label for="last-name">Last Name</label><br />
+                <input type="text" id="last-name" class="input-field" name="last-name" placeholder="Enter your last name"
+                    required /><br><br>
+
+                <label for="email">Email</label><br>
+                <input type="email" id="email" class="input-field" name="email" placeholder="Enter your email" required /><br /><br />
+
+                <label for="phone">Phone Number</label><br>
+                <input type="tel" id="phone" class="input-field" name="phone" placeholder="Enter your phone number" /><br /><br />
+
+                <!--What services are you interested in?-->
+                <label for="service">What service are you interested in?</label><br>
+                <select id="service" name="service">
+                    <option value="">Choose one</option>
+                    <option value="web-design">Web Design</option>
+                    <option value="portfolio-website">Portfolio Website</option>
+                    <option value="graphic-design">Graphic Design</option>
+                </select><br><br>
+
+                <!--How did you hear about me?-->
+                <p>How did you hear about me?</p>
+
+                <input type="radio" id="friend" name="referral" value="friend" />
+                <label for="friend">Friend</label><br />
+
+                <input type="radio" id="social-media" name="referral" value="social-media" />
+                <label for="social-media">Social Media</label><br />
+
+                <input type="radio" id="google" name="referral" value="google" />
+                <label for="google">Google Search</label><br /><br />
+
+                <label for="message">Message</label><br />
+                <textarea id="message" name="message" rows="5" cols="30"
+                    placeholder="Type your message here"></textarea><br /><br />
+
+                <button type="submit" class="submit-btn">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <!--Footer-->
+    <footer class="site-footer">
+        <p>Eseosa Imhariagbe | 2026</p>
+    </footer>
+</body>
+
+</html>
